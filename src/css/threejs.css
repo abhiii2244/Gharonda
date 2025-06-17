@@ -1,0 +1,241 @@
+*{box-sizing: border-box;
+margin: 0;
+font-weight: normal;
+padding: 0;}
+
+@font-face {
+    font-family:headings;
+    src: url(/fonts/salita/Salita.woff)
+}
+
+@font-face{
+    font-family:brittany;
+    src: url(/fonts/brittany_signature/BrittanySignature.woff)}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+--cursive:brittany;
+--headings:headings;
+--paragrraph: 'Poppins';
+--bgColor:#F6F2D9;
+--green:#09201f;
+--lightBaize:#d7bb7a;
+--darkBaize:#c8a57f;
+--black:#242424;
+--border-radius:65px;
+}
+
+.cursorDiv{width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+pointer-events: none;
+left: 0;
+z-index: 50;}
+
+.cursor{width: 25px;
+height: 25px;
+border-radius: 15px;
+pointer-events: none;
+font-family: var(--paragrraph);
+font-size: 1rem;
+text-align: center;
+transform: translate(-50%, -50%);
+background: #fff;
+position: absolute;}
+
+.cursorLabel{color: #fff;
+    position: absolute;
+    transform: translate(-50%,-100%);}
+
+.threejsCanvas{width: 100%;
+height: 100dvh;
+position: relative;
+overflow: hidden;}
+
+
+h1{margin: 0;}
+canvas{width: 100%;
+height: 100%;
+position: absolute;
+z-index: 1;
+pointer-events: all;}
+
+ul{list-style-type: none;}
+
+
+nav{width: 100%;
+height: 10%;
+display: flex;
+justify-content: space-between;
+position: absolute;
+top: 0;
+z-index: 10;
+background: var(--green);
+font-size: 1.5rem;}
+
+.backToWebsite{width: 20%;
+height: 100%;
+padding-left: 30px;
+cursor: pointer;
+display: flex;
+color: var(--bgColor);
+align-items: center;
+font-size: 2rem;
+
+}
+
+
+.selectObject{width: 20%;
+height: 100%;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+color: var(--bgColor);
+
+}
+.selectObject i{pointer-events: all;
+    cursor: pointer;
+}
+
+
+.logo{width: 60%;
+height: 100%;
+font-family: var(--headings);
+display: flex;
+padding-left: 30px;
+justify-content: start;
+align-items: center;
+color: var(--bgColor);
+}
+.logo img{height: 80%;}
+
+
+.bottom{width: 50%;
+    height: 10%;
+color: var(--bgColor);
+position: absolute;
+bottom:0;
+transform: translateX(-50%);
+left: 50%;
+z-index: 2;
+overflow: hidden;
+font-size: 1.2rem;
+font-family: var(--paragrraph);
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;}
+
+
+.mouseInstruction{width: 30%;
+height: 100%;
+position: relative;}
+
+
+.bottom p{width: 150px;
+height: 40px;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+.bottom p span{position: absolute;
+    text-wrap: nowrap;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;}
+.bottom p :nth-child(2){position: absolute;
+    top: 150%;
+    transform: translate(-50%, -50%);}
+
+
+
+.selectModel{width: 100%;
+height: 100%;
+background: var(--green);
+overflow: hidden;
+position: absolute;
+padding: 10vh 30px 10vh 30px;
+top: -100%;
+right: 0%;
+z-index: 4;
+color: var(--bgColor);
+}
+
+.selectModelheading{
+    width: 100%;
+    height: 20%;
+    align-content: end;
+}
+
+.selectModelheading h2{font-family: var(--headings);
+font-size: 2rem;
+}
+
+.navlinks{width: 100%;
+height: 60%;
+display: flex;
+flex-direction: column;
+font-size: 1.5rem;
+padding-top: 30px;
+gap: 10px;
+font-family: var(--paragrraph);}
+
+.navlinks li{cursor: pointer;}
+
+#socialMediaIcons{width: 100%;
+    height: 20%;}
+
+#socialMediaIcons ul{width: 100%;
+height: 100%;
+font-size: 1.5rem;
+display: flex;
+flex-direction: row;
+align-items: end;
+justify-content: space-evenly;
+color: var(--bgColor);}
+/* .backToWebsite i{} */
+
+.texture-panel{width: 100%;
+height:80px;
+position: absolute;
+bottom:10%;
+display: flex;
+align-items: center;
+justify-content: center;
+left:0%;
+gap: 30px;
+border: none;
+z-index: 4;}
+
+.texture-button{width:85px;
+height: 45px;
+border: none;
+border-radius: 3px;
+font-family:var(--paragrraph);
+}
+
+
+.textureChange ul{width: fit-content;
+height: 100%;
+display: flex;
+gap: 25px;
+justify-content: space-around;}
+
+.textureChange ul li{width: 100px;
+height: 100%;}
+
+@media screen and (min-width:769px) {
+   .selectModel{width: 50%;
+height: 100%;} 
+
+.selectModelheading h2{font-size:2.5rem;}
+}

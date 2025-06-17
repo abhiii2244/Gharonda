@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.19 166.85">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 19.73px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-2" d="M.57,13.19c48.39,33.23,81.7,87.56,89.47,145.74"/>
+        <polygon points="80.91 153.6 82.15 152.03 89.87 158.17 95.43 150.03 97.08 151.16 90.31 161.08 80.91 153.6"/>
+      </g>
+      <text class="cls-1" transform="translate(34.55 25.7) rotate(48.9)"><tspan x="0" y="0">H</tspan></text>
+      <text class="cls-1" transform="translate(43.38 35.83) rotate(52.09)"><tspan x="0" y="0">o</tspan></text>
+      <text class="cls-1" transform="translate(51.03 45.67) rotate(54.94)"><tspan x="0" y="0">v</tspan></text>
+      <text class="cls-1" transform="translate(57.31 54.59) rotate(57.72)"><tspan x="0" y="0">e</tspan></text>
+      <text class="cls-1" transform="translate(63.72 64.82) rotate(60.05)"><tspan x="0" y="0">r</tspan></text>
+      <text class="cls-1" transform="translate(67.35 71.15) rotate(61.56)"><tspan x="0" y="0"> </tspan></text>
+      <text class="cls-1" transform="translate(69.84 75.65) rotate(63.45)"><tspan x="0" y="0">T</tspan></text>
+      <text class="cls-1" transform="translate(74.55 85.02) rotate(66.22)"><tspan x="0" y="0">h</tspan></text>
+      <text class="cls-1" transform="translate(79.57 96.41) rotate(69.19)"><tspan x="0" y="0">e</tspan></text>
+      <text class="cls-1" transform="translate(83.98 107.61) rotate(73.13)"><tspan x="0" y="0">m</tspan></text>
+    </g>
+  </g>
+</svg>

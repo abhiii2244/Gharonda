@@ -1,0 +1,472 @@
+
+
+@media screen and (max-width:600px) {
+.galleryFloral{display: none;}
+.askCall{width: 25%;}
+
+
+
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+
+.topnavfiller{
+    grid-row: span 1;
+    grid-column:1 / span 5;}
+
+.topInfo{grid-row: span 1;
+    grid-column:11 / span 5;
+}
+
+.logo{   
+    grid-row:1/ span 3;
+    grid-column:6 / span 5;}
+
+
+
+.pc-list{ grid-row:1/ span 3;
+    grid-column:1 / span 5;
+}
+
+.askCall{width: 25%;}
+.searchBar{display: none;}
+.askCall input{display: none;}
+
+.amenities{min-height: 100vh;}
+
+.cardWrapper li{width: 280px;
+height: 180px;
+border-radius: 5px;
+position: relative;}
+
+.textIconWrapper{flex-direction: column;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+gap: 15px;}
+
+.cardWrapper li img{height: 105%;
+aspect-ratio: 16/9;
+border-radius: 0px;
+opacity: 0.3;
+transform: translate(0%, 0%);
+right: 0%;
+top: 0%;}
+
+
+.cardWrapper{    
+flex-wrap: wrap;
+border-radius: 0px;
+flex-direction: row;
+align-items: center;
+justify-content: center;}
+
+
+.cardWrapper li span{font-size:3rem;}
+.cardWrapper li p{font-size:1.2rem;}
+
+
+
+  .customerReviewGrid {
+    column-count: 2;
+    column-gap: 20px;
+    row-gap: 20px;}
+
+
+
+.imgbox{width: 448px;
+height: 327px;}
+
+.galleryFloral{height: 100px;
+display: block;}
+
+
+.connectivityHeading h2{
+font-size: 3rem;}
+
+.connectivityHeading span{font-size: 3rem;}
+}
+
+
+
+
+@media screen and (min-width:769px) and (max-width:990px) {
+.topnavfiller{display: flex;
+    grid-row: span 1;
+    grid-column:1 / span 6;}
+
+.topInfo{display: flex;
+     grid-row: span 1;
+    grid-column:10 / span 6;
+}
+
+.logo{   
+    grid-row: span 3;
+    grid-column:7 / span 3;}
+
+.askAcall{
+    grid-row: span 3;
+    grid-column:10 / span 6;
+}
+
+.pc-list{ grid-row:2/ span 2;
+    grid-column:1 / span 6;
+}
+.formPlus {
+     width: 150px;
+bottom: 36px;
+right: 10px;
+}
+.plusIcon {
+  justify-content: start;
+}
+
+
+.plus{font-size: 2rem;}
+.whatsapp{font-size: 1.8rem;}
+.form{font-size: 1.8rem;}
+.phone{font-size: 1.8rem;}
+
+
+.formIcon{display: none;}
+#amenities{
+padding:0px;}
+
+
+.amenitiesText span{text-align: center;
+font-size: 8rem;}
+
+.amenitiesText{width: 100%;
+height:100vh;
+border: 2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+.cardWrapper{padding-top: 0;
+position: absolute;
+top: 0;
+height: 100%;
+z-index: 2;}
+
+.textIconWrapper{flex-direction: column;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+gap: 15px;}
+
+.customerReviewHeadings h1{font-size: 4rem;}
+.customerReviewHeadings h2{
+font-size: 3rem;}
+
+  .customerReviewGrid {
+    column-count: 3;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.cardWrapper li img{height: 105%;
+aspect-ratio: 16/9;
+border-radius: 0px;
+opacity: 0.9;
+transform: translate(0%, 0%);
+right: 0%;
+top: 0%;}
+
+.cardWrapper li{width: 650px;
+height: 480px;
+list-style-type: none;
+position: absolute;}
+
+.cardWrapper li span{font-size:4rem;}
+.cardWrapper li p{font-size:1.5rem;}
+
+.imgbox{width: 448px;
+height: 327px;}
+
+
+.overalyHeading h4{transform: translateY(40px);}  
+
+
+/* Picture Gallery Section */
+#picturegallery h2{font-family: var(--cursive);
+font-size: 3.5rem;}
+#picturegallery h1{font-family: var(--headings);
+font-size: 5rem;}
+
+.galleryFloral{
+    height: 120px;
+display: block;}
+
+.connectivityHeading h2{
+font-size: 3rem;}
+
+
+
+.connectivityHeading span{font-size: 3rem;}
+
+.tabsContent{width: 340px;
+height: 340px;} 
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+background: var(--green);}
+#footerInfo{width: 100%;
+        display: flex;
+    flex-direction: row;
+}
+.footerLinks{width: 50%;
+    height: 50vh;}
+
+#footerCopyright{width: 100%;
+    height: 10vh;}
+
+
+}
+
+
+@media screen and (min-width:991px){
+
+nav{
+grid-template-columns: repeat(15 ,1fr);
+grid-template-rows: repeat(4,1fr);} 
+
+
+.formPlus {
+    width: 150px;
+bottom: 36px;
+right: 10px;
+}
+.plusIcon {
+  justify-content: start;
+}
+
+
+.plus{font-size: 2rem;}
+.whatsapp{font-size: 1.8rem;}
+.form{font-size: 1.8rem;}
+.phone{font-size: 1.8rem;}
+
+.mnav{display: none;}
+
+.topnavfiller{display: flex;
+    grid-row:1/ span 2;
+    grid-column:4 / span 9;}
+
+.topInfo{  grid-row:1 / span 2;
+    grid-column:13 / span 4;
+    display: flex;
+}
+
+.logo{   
+    grid-row:1/ span 4;
+    grid-column:1/ span 3;
+}
+
+.pc-list{ 
+    grid-column:4 / span 9;
+    grid-row:3 / span 2;
+}
+
+.askAcall{ 
+    grid-row:3 / span 2;
+    grid-column:13 / span 3;
+}
+.hamburger{display: none;}
+
+.logoWithTxt{display: block;}
+.logoWithoutTxt{display: none;}
+
+.pc-list ul{display: flex;}
+
+.amenitiesText span{text-align: center;
+font-size: 8rem;}
+
+.amenitiesText{width: 100%;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+.cardWrapper{padding-top: 0;
+position: absolute;
+top: 0;
+height: 100%;
+z-index: 2;}
+
+.textIconWrapper{flex-direction: column;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+gap: 15px;}
+
+.customerReviewHeadings h1{font-size: 4rem;}
+.customerReviewHeadings h2{
+font-size: 3rem;}
+
+  .customerReviewGrid {
+    column-count: 4;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+
+.cardWrapper li img{height: 105%;
+aspect-ratio: 16/9;
+border-radius: 0px;
+opacity: 0.7;
+transform: translate(0%, 0%);
+right: 0%;
+top: 0%;}
+
+.cardWrapper li span{font-size:4rem;}
+.cardWrapper li p{font-size:1.5rem;}
+
+.cardWrapper li{width: 650px;
+height: 480px;
+position: absolute;}
+
+
+/* section 2 */
+#vr3d{position: relative;}
+
+
+.overalyHeading h4{transform: translateY(40px);}  
+#keyholeImg{height: 50%;}
+
+
+#mainContent{width: 100%;
+height: 100%;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+padding: 0px 15px;}
+
+.lane1{width: 40%;
+height: 15%;
+display: none;
+text-align: center;
+border: 2px solid black;}
+
+.heightRemover{height: 3rem;}    
+
+.lane1 h1{font-family:var(--cursive);
+font-size: 2.5rem;}
+.lane1 h2{font-family:var(--headings);
+font-size: 3rem;}
+
+.lane2{width: 50%;
+height: 100%;}
+
+
+.lane3{width: 50%;
+height: 100%;
+align-content: center;}
+
+.lane3 .headings{height: 20%;
+align-content: center;
+display: block;}
+.lane3 .headings h1{font-family:var(--cursive);
+font-size: 3.2rem;}
+.lane3 .headings h2{font-family:var(--headings);
+font-size: 4rem;}
+
+.imgbox{width: 550px;
+height:450px;}
+
+.tab-links{width: 100%;
+height: 40%;
+padding-left:15% ;
+text-align: left;
+align-content: center;
+margin-top: 15px;
+font-family: 'Poppins';
+font-size: 1rem;}
+
+
+
+/* Picture Gallery Section */
+#picturegallery h2{font-family: var(--cursive);
+font-size: 4rem;}
+#picturegallery h1{font-family: var(--headings);
+font-size: 6rem;}
+
+
+
+.connectivityHeading h2{
+font-size: 3rem;}
+
+
+
+.connectivityHeading span{font-size: 3rem;}
+
+
+
+#secondaryNav ul li{
+width: 225px;
+height: 200px;}
+
+
+
+#connectivityBtm{height: 30%;}
+
+
+.tabsContent{width: 250px;
+height: 250px;} 
+
+
+.ourProjectHeadings{width: 100%;
+height: 10vh;
+justify-content: center;}
+
+.tabsLinks{
+width: 100%;
+height: 10vh;
+display: flex;
+align-items: start;
+justify-content: center;
+gap: 30px;}
+
+
+#footer{width: 100%;
+    display: flex;
+    flex-direction: row;}
+
+#footerLogo{width: 50%;
+height: 50vh;
+}
+#footerInfo{width: 50%;
+    display: flex;
+
+    flex-direction: row;
+}
+.footerLinks{width: 50%;
+    height: 40vh;}
+
+#footerCopyright{width: 100%;
+    height: 10vh;}
+
+
+
+
+}
+@media screen and (min-width:1200px){
+    .customerReviewHeadings h1{font-size: 5rem;}
+.customerReviewHeadings h2{
+font-size: 4rem;
+    transform: translateY(1rem);}
+      .customerReviewGrid {
+    column-count: 5;
+    column-gap: 20px;
+  }
+}
+@media screen and (min-width:1400px){
+
+      .customerReviewGrid {
+    column-count: 6;
+    column-gap: 20px;
+  }
+}
