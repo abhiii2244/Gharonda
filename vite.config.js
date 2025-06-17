@@ -1,6 +1,4 @@
 // vite.config.js
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  base: '/Gharonda/',
-});
+export default {
+  base: '/Gharonda/'  // 👈 MUST match your repo name exactly
+}
